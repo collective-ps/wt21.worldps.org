@@ -4,7 +4,7 @@ title = "Pen Spinning World Tournament 2021"
 
 # The homepage contents
 [extra]
-lead = 'The bi-annual pen spinning competition.'
+lead = 'Currently accepting participant applications.'
 url = "/news"
 url_button = "Latest News"
 
