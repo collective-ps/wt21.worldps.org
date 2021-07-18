@@ -1,16 +1,17 @@
 +++
 title = "Pen Spinning World Tournament 2021"
+paginate_by = 5
 
 
 # The homepage contents
 [extra]
-lead = 'Currently accepting participant applications.'
+lead = 'Currently accepting judge applications.'
 url = "/news"
 url_button = "Latest News"
 
 [[extra.list]]
-title = "Participants"
-content = 'If you are interested in competing, please fill out the <a href="#">registration form</a>!'
+title = "Judges"
+content = 'If you are interested in judging, please fill out the <a href="#">registration form</a>!'
 
 [[extra.list]]
 title = "WT21 Rulebook"
