@@ -42,11 +42,11 @@ section = "judges"
 url = "/judges/"
 weight = 40
 
-[[extra.menu.main]]
-name = "Sponsors"
-section = "sponsors"
-url = "/sponsors/"
-weight = 50
+# [[extra.menu.main]]
+# name = "Sponsors"
+# section = "sponsors"
+# url = "/sponsors/"
+# weight = 50
 
 [[extra.menu.main]]
 name = "Rulebook"

@@ -48,3 +48,9 @@ p.meta {
   text-align: center;
   margin-bottom: 2rem;
 }
+
+.page.full-width {
+  .content .col-md-12 {
+    width: 100%;
+  }
+}

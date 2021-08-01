@@ -11,6 +11,4 @@ class = "page single"
 
 ### Judges
 
-Judge line-up will be published in a future date.
-
-If you are interested in being a judge for WT21, please fill out the [registration form!](#)
+If you are interested in being a judge for WT21, the application form will be announced at a future date.
