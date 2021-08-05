@@ -11,7 +11,7 @@ url_button = "Latest News"
 
 [[extra.list]]
 title = "Judges"
-content = 'If you are interested in judging, please fill out the <a href="#">registration form</a>!'
+content = 'If you are interested in judging, applications will be opening soon.'
 
 [[extra.list]]
 title = "WT21 Rulebook"
