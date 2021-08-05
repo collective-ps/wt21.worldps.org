@@ -5,7 +5,7 @@ paginate_by = 5
 
 # The homepage contents
 [extra]
-lead = 'Currently accepting judge applications.'
+lead = ''
 url = "/news"
 url_button = "Latest News"
 
