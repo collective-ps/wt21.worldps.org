@@ -71,6 +71,8 @@ participants = [
   { name = "Raber" },
   { name = "Ivy" },
   { name = "TakA" },
+  { name = "Jiv" },
+  { name = "Haro" },
 ]
 
 [[extra.participants.community]]
