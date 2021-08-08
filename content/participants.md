@@ -39,10 +39,10 @@ participants = [
 
 [[extra.participants.community]]
 name = "PHPS"
-manager = { name = "ch" }
+manager = { name = "altttt" }
 participants = [
   { name = "abc" },
-  { name = "Altttt" },
+  { name = "altttt" },
   { name = "kres" },
   { name = "KURINTO" },
   { name = "Mond" },
