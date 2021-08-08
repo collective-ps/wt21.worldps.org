@@ -1,6 +1,6 @@
 +++
 title = "Participants"
-description = "List of all participants"
+description = "The roster of communities and spinners that will be participating in the Pen Spinning World Tournament 2021."
 date = 2021-05-01T08:00:00+00:00
 updated = 2020-05-01T08:00:00+00:00
 draft = false
@@ -59,6 +59,18 @@ participants = [
   { name = "Joi" },
   { name = "m1ch1" },
   { name = "Eriror" },
+]
+
+[[extra.participants.community]]
+name = "JEB"
+manager = { name = "AiMo" }
+participants = [
+  { name = "Ence" },
+  { name = "TUv4" },
+  { name = "Wabi" },
+  { name = "Raber" },
+  { name = "Ivy" },
+  { name = "TakA" },
 ]
 
 [[extra.participants.community]]
