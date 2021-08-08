@@ -1,0 +1,40 @@
+.community-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.community-list .community {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  .community-name {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .community-manager {
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .participant-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .participant {
+      font-weight: bold;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .community-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
