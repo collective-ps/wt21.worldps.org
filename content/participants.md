@@ -70,7 +70,7 @@ participants = [
   { name = "Wabi" },
   { name = "Raber" },
   { name = "Ivy" },
-  { name = "TakA" },
+  { name = "TaKA" },
   { name = "Jiv" },
   { name = "Haro" },
 ]
