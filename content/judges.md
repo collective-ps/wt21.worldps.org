@@ -11,4 +11,4 @@ class = "page single"
 
 ### Judges
 
-If you are interested in being a judge for WT21, the application form will be announced at a future date.
+Judges will be announced at a future date.
