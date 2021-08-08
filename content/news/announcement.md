@@ -1,8 +1,7 @@
 +++
 title = "WT21 Announcement"
 description = "Welcome to the 2021 Pen Spinning World Tournament!"
-date = 2021-04-10T09:19:42+00:00
-updated = 2021-04-10T09:19:42+00:00
+date = 2021-08-05T09:19:42+00:00
 draft = false
 template = "news/page.html"
 
