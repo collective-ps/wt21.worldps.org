@@ -11,6 +11,6 @@ url_button = "Latest News"
 
 [[extra.list]]
 title = "WT21 Rulebook"
-content = 'View the <a href="https://drive.google.com/file/d/1ZfoYf19mrN-wD_s4M9e9BOZLg-cTftit/view">Official WT21 Rulebook</a>.'
+content = 'View the <a href="https://drive.google.com/file/d/1bX2etCm6xgAITQgdzYfeW0Cc_AzAaogJ/view">Official WT21 Rulebook</a>.'
 
 +++

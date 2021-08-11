@@ -11,4 +11,4 @@ class = "page single"
 
 ### Rulebook
 
-View the [Official WT21 Rulebook](https://drive.google.com/file/d/1ZfoYf19mrN-wD_s4M9e9BOZLg-cTftit/view).
+View the [Official WT21 Rulebook](https://drive.google.com/file/d/1bX2etCm6xgAITQgdzYfeW0Cc_AzAaogJ/view).
