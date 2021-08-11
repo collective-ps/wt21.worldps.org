@@ -1,0 +1,39 @@
+#countdown {
+  margin: 20px 0 10px 0;
+  font-weight: 500;
+  white-space: pre;
+
+  &.has-concluded {
+    font-size: 1rem;
+  }
+}
+
+.countdown-date {
+  text-align: right;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+.countdown-title {
+  font-style: italic;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.countdown-section {
+  .row > * {
+    padding: 0;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  #countdown {
+    font-size: 1.25rem;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  #countdown {
+    font-size: 0.9rem;
+  }
+}

@@ -37,6 +37,29 @@
           </p>
         </div>
       </div>
+
+      {% if section.extra.deadline %}
+      <section class="section section-sm countdown-section">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+              <h2 class="countdown-title">{{ section.extra.deadline.title }}</h2>
+              <h3
+                id="countdown"
+                class="h3"
+                data-year="{{ section.extra.deadline.year }}"
+                data-month="{{ section.extra.deadline.month }}"
+                data-day="{{ section.extra.deadline.day }}"
+              ></h3>
+              <p class="countdown-date">
+                due {{ section.extra.deadline.year }}/{{ section.extra.deadline.month }}/{{ section.extra.deadline.day }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      {% endif %}
     </section>
   </div>
 </div>
