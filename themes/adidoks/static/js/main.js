@@ -49,8 +49,8 @@ if ($countdown) {
       window.requestAnimationFrame(updateCountdown);
     } else {
       $countdown.className += " has-concluded";
-      $countdown.textContent =
-        "Deadline has concluded!\r\n\r\nSubmissions past this date will be marked as late submissions.";
+      $countdown.innerHTML =
+        "Deadline has concluded!\r\n\r\nFor any late submissions or inquiries, please contact <a href='mailto:penspinningwt@gmail.com'>penspinningwt@gmail.com</a>.";
     }
   }
 
