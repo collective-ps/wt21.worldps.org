@@ -29,23 +29,29 @@ if ($countdown) {
     var now = Date.now();
     var difference_in_ms = Math.max(future - now, 0);
 
-    var days = Math.floor(difference_in_ms / (1000 * 60 * 60 * 24));
-    difference_in_ms = difference_in_ms - days * 1000 * 60 * 60 * 24;
-    var hours = Math.floor(difference_in_ms / (1000 * 60 * 60));
-    difference_in_ms = difference_in_ms - hours * 1000 * 60 * 60;
-    var minutes = Math.floor(difference_in_ms / (1000 * 60));
-    difference_in_ms = difference_in_ms - minutes * 1000 * 60;
-    var seconds = Math.floor(difference_in_ms / 1000);
+    if (difference_in_ms > 0) {
+      var days = Math.floor(difference_in_ms / (1000 * 60 * 60 * 24));
+      difference_in_ms = difference_in_ms - days * 1000 * 60 * 60 * 24;
+      var hours = Math.floor(difference_in_ms / (1000 * 60 * 60));
+      difference_in_ms = difference_in_ms - hours * 1000 * 60 * 60;
+      var minutes = Math.floor(difference_in_ms / (1000 * 60));
+      difference_in_ms = difference_in_ms - minutes * 1000 * 60;
+      var seconds = Math.floor(difference_in_ms / 1000);
 
-    var time_string = [];
+      var time_string = [];
 
-    time_string.push(days.toString() + " days");
-    time_string.push(hours.toString() + " hours");
-    time_string.push(minutes.toString() + " minutes");
-    time_string.push(seconds.toString() + " seconds");
-    $countdown.textContent = time_string.join(", ");
+      time_string.push(days.toString() + " days");
+      time_string.push(hours.toString() + " hours");
+      time_string.push(minutes.toString() + " minutes");
+      time_string.push(seconds.toString() + " seconds");
+      $countdown.textContent = time_string.join(", ");
 
-    window.requestAnimationFrame(updateCountdown);
+      window.requestAnimationFrame(updateCountdown);
+    } else {
+      $countdown.className += " has-concluded";
+      $countdown.textContent =
+        "Deadline has concluded!\r\n\r\nSubmissions past this date will be marked as late submissions.";
+    }
   }
 
   window.requestAnimationFrame(updateCountdown);
