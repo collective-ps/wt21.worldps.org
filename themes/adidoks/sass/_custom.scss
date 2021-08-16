@@ -1,10 +1,49 @@
 #countdown {
   margin: 20px 0 10px 0;
   font-weight: 500;
-  white-space: pre;
+  white-space: pre-wrap;
+  display: flex;
 
   &.has-concluded {
     font-size: 1rem;
+    text-align: center;
+    white-space: pre;
+    display: block;
+  }
+
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 8rem;
+  }
+
+  #days:after,
+  #hours:after,
+  #minutes:after,
+  #seconds:after {
+    position: absolute;
+    font-size: 1rem;
+    transform: translateY(140px);
+  }
+
+  #days:after {
+    content: "days";
+  }
+
+  #hours:after {
+    content: "hours";
+  }
+
+  #minutes:after {
+    content: "minutes";
+  }
+
+  #seconds:after {
+    content: "seconds";
   }
 }
 
@@ -18,6 +57,7 @@
   font-style: italic;
   font-size: 1.25rem;
   margin: 0;
+  text-align: center;
 }
 
 .countdown-section {
@@ -28,12 +68,38 @@
 
 @include media-breakpoint-down(lg) {
   #countdown {
-    font-size: 1.25rem;
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+      font-size: 4rem;
+    }
+
+    #days:after,
+    #hours:after,
+    #minutes:after,
+    #seconds:after {
+      transform: translateY(65px);
+      font-size: 0.8rem;
+    }
   }
 }
 
 @include media-breakpoint-down(sm) {
   #countdown {
-    font-size: 0.9rem;
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+      font-size: 2.5rem;
+    }
+
+    #days:after,
+    #hours:after,
+    #minutes:after,
+    #seconds:after {
+      transform: translateY(40px);
+      font-size: 0.7rem;
+    }
   }
 }

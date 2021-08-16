@@ -20,6 +20,11 @@ if (!Date.now) {
 var $countdown = document.getElementById("countdown");
 
 if ($countdown) {
+  var $days = document.getElementById("days");
+  var $hours = document.getElementById("hours");
+  var $minutes = document.getElementById("minutes");
+  var $seconds = document.getElementById("seconds");
+
   var year = Number($countdown.dataset.year);
   var month = Number($countdown.dataset.month);
   var day = Number($countdown.dataset.day);
@@ -40,11 +45,13 @@ if ($countdown) {
 
       var time_string = [];
 
-      time_string.push(days.toString() + " days");
-      time_string.push(hours.toString() + " hours");
-      time_string.push(minutes.toString() + " minutes");
-      time_string.push(seconds.toString() + " seconds");
-      $countdown.textContent = time_string.join(", ");
+      $days.textContent = days < 10 ? "0" + days.toString() : days.toString();
+      $hours.textContent =
+        hours < 10 ? "0" + hours.toString() : hours.toString();
+      $minutes.textContent =
+        minutes < 10 ? "0" + minutes.toString() : minutes.toString();
+      $seconds.textContent =
+        seconds < 10 ? "0" + seconds.toString() : seconds.toString();
 
       window.requestAnimationFrame(updateCountdown);
     } else {
