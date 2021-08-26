@@ -28,7 +28,8 @@ if ($countdown) {
   var year = Number($countdown.dataset.year);
   var month = Number($countdown.dataset.month);
   var day = Number($countdown.dataset.day);
-  var future = new Date(Date.UTC(year, month - 1, day));
+  var hour = 7; // +7 offset to account for PDT.
+  var future = new Date(Date.UTC(year, month - 1, day, 7));
 
   function updateCountdown() {
     var now = Date.now();
