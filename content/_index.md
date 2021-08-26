@@ -13,6 +13,6 @@ url_button = "Latest News"
 title = "Round 1 Videos Deadline"
 year = "2021"
 month = "08"
-day = "28"
+day = "29"
 
 +++
