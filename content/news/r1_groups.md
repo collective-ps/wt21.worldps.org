@@ -17,7 +17,7 @@ for Round 1 of the Pen Spinning World Tournament 2021!
 
 | A        | B       | C        | D        | E         | F       | G         | H           |
 | -------- | ------- | -------- | -------- | --------- | ------- | --------- | ----------- |
-| Mond     | FLow    | Allwars  | Luscus   | Zefia     | Hector  | Sweg      | Gollumsk8   |
+| Mond     | FLow    | Allwars  | Luscas   | Zefia     | Hector  | Sweg      | Gollumsk8   |
 | Fizz     | Altttt  | Eriror   | Ivy      | i.suk     | Ketain  | Karuna    | Mordecai    |
 | u91x     | Padrace | Magic\*  | Tktron   | Sanyo     | abc     | Jiv.      | Plum        |
 | Vanilla  | Tuanz   | Juzzle   | Haro     | Pops      | Haton   | Wei       | ph          |

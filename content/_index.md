@@ -13,6 +13,6 @@ url_button = "Latest News"
 title = "Round 1 Judging Results"
 year = "2021"
 month = "09"
-day = "12"
+day = "11"
 
 +++
