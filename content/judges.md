@@ -1,6 +1,6 @@
 +++
 title = "Judges"
-description = "List of all participants"
+description = "List of all judges"
 date = 2021-05-01T08:00:00+00:00
 updated = 2020-05-01T08:00:00+00:00
 draft = false
@@ -11,4 +11,10 @@ class = "page single"
 
 ### Judges
 
-Judges will be announced at a future date.
+The judges for PSWT21 are:
+
+- DArKT (PSB)
+- kin (HKPSA)
+- Taichi1082(GPC)
+- Tchus(FPSB)
+- Xound(PHPS)
