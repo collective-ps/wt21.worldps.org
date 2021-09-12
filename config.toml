@@ -65,6 +65,11 @@ weight = 10
 info = ''
 
 [[extra.footer.nav]]
+name = "B Side"
+url = "https://wt21-b.worldps.org"
+weight = 10
+
+[[extra.footer.nav]]
 name = "Rulebook"
 url = "https://drive.google.com/file/d/1bX2etCm6xgAITQgdzYfeW0Cc_AzAaogJ/view"
-weight = 10
+weight = 20
