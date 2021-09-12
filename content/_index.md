@@ -10,7 +10,7 @@ url = "/news"
 url_button = "Latest News"
 
 [extra.deadline]
-title = "Round 1 Judging Results"
+title = "Round 1 Judging Deadline"
 year = "2021"
 month = "09"
 day = "11"
