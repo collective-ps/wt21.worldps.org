@@ -15,7 +15,9 @@ from each group will proceed to Round 2.
 
 We have uploaded the compiled results on the link below. Individual comments provided by the judges are located in the tabs.
 
-[View the judging results + commentary here.](https://docs.google.com/spreadsheets/d/1TN_Fq9f0KfE7lsVhWbqeeACF7lmyL0LR/edit#gid=1561197381)
+[View the judging results + commentary here. (Google Spreadsheet)](https://docs.google.com/spreadsheets/d/1TN_Fq9f0KfE7lsVhWbqeeACF7lmyL0LR/edit#gid=1561197381)
+
+[Download raw spreadsheet (.xlsx)](/files/WT21_R1_Results.xlsx)
 
 ---
 
