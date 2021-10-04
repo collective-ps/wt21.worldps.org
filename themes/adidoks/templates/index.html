@@ -72,18 +72,20 @@
     <div class="row justify-content-center">
       <div class="col-lg-12 text-center">
         {% for page in news.pages %}
-        <div class="post mt-4">
-          <div class="card-item-name" itemprop="name">
-            <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-            {{ macros_publish::page_publish_metadata(page=page) }}
+          {% if loop.index <= 5 %}
+          <div class="post mt-4">
+            <div class="card-item-name" itemprop="name">
+              <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+              {{ macros_publish::page_publish_metadata(page=page) }}
+            </div>
+            {% if page.description %}
+            <div class="card-item-desc" itemprop="description">
+              <em>{{ page.description | safe }}</em>
+            </div>
+            <div class="clear"></div>
+            {% endif %}
           </div>
-          {% if page.description %}
-          <div class="card-item-desc" itemprop="description">
-            <em>{{ page.description | safe }}</em>
-          </div>
-          <div class="clear"></div>
           {% endif %}
-        </div>
         {% endfor -%}
       </div>
     </div>

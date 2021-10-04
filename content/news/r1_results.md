@@ -10,7 +10,7 @@ authors = ["Public"]
 
 +++
 
-After compiling results form judges, we would like to announce the Top 4s for Round 1 of PSWT21. The Top 4
+After compiling results from judges, we would like to announce the Top 4s for Round 1 of PSWT21. The Top 4
 from each group will proceed to Round 2.
 
 We have uploaded the compiled results on the link below. Individual comments provided by the judges are located in the tabs.
