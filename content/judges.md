@@ -15,6 +15,6 @@ The judges for PSWT21 are:
 
 - DArKT (PSB)
 - kin (HKPSA)
-- Taichi1082 (GPC)
+- Taichi1082
 - Tchus (FPSB)
 - Xound (PHPS)
