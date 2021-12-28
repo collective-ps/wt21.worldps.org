@@ -9,10 +9,4 @@ lead = ''
 url = "/news"
 url_button = "Latest News"
 
-[extra.deadline]
-title = "Round 5 Videos Deadline"
-year = "2021"
-month = "11"
-day = "27"
-
 +++
